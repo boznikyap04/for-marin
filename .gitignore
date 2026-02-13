@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+include/
+pyvenv.cfg
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit specific
+.streamlit/config.toml
+! .streamlit/secrets.toml  # Keep secrets private if you ever use them
+
+# OS specific
+.DS_Store
+Thumbs.db
